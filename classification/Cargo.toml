@@ -1,0 +1,10 @@
+[package]
+name = "classification"
+version = "0.0.1"
+authors = ["sudogauss"]
+
+[dependencies]
+nalgebra = "0.32.2"
+csv = "1.1"
+serde = { version = "1", features = ["derive"] }
+rand = "0.8.5"
